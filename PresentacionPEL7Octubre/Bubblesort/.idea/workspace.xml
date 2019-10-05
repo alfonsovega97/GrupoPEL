@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SelectionSort" targetName="SelectionSort" />
+      <config projectName="Bubblesort" targetName="Bubblesort" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e79d7f-769e-4eb0-b1ad-99f9a7477e54" name="Default Changelist" comment="" />
+    <list default="true" id="58f01a3e-8471-46ed-95dd-86e3717f4c04" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1RnQ2AmUn5u0Cow2G9nOyPHBSYv" />
+  <component name="ProjectId" id="1RnQYXDSwtg16WOWJTKCGdVDGFj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,7 +43,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SelectionSort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SelectionSort" TARGET_NAME="SelectionSort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SelectionSort" RUN_TARGET_NAME="SelectionSort">
+    <configuration name="Bubblesort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Bubblesort" TARGET_NAME="Bubblesort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Bubblesort" RUN_TARGET_NAME="Bubblesort">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -54,12 +54,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24e79d7f-769e-4eb0-b1ad-99f9a7477e54" name="Default Changelist" comment="" />
-      <created>1570300170397</created>
+      <changelist id="58f01a3e-8471-46ed-95dd-86e3717f4c04" name="Default Changelist" comment="" />
+      <created>1570300427166</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570300170397</updated>
-      <workItem from="1570300171532" duration="254000" />
+      <updated>1570300427166</updated>
+      <workItem from="1570300428431" duration="72000" />
     </task>
     <servers />
   </component>
