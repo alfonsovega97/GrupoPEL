@@ -1,49 +1,37 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main()
-{
+int main(){
     int n;
-    cout<<"Enter number of element you want to store: ";
+    cout<<"Meta el numero de elemntos que quiera almacenar: ";
     cin>>n;
     int arr[n],i,j;
-    cout<<"Enter array values:\n";
-    //taking the array value
-    //from user
-    for(i=0;i<n;i++)
-    {
+    cout<<"Meta los valores del array:\n";
+    
+    for(i=0;i<n;i++){
         cin>>arr[i];
     }
-    //here this flag will help
-    //to optimise the solution
-    //first initialise flag=1
+    
+    //Este flag permite optimizar la solucion inicializandolo a 1
     int flag=1;
-    //Now we will sort the array
-    //if my flag value is 1 then only
-    //the loop will execute
-    for(i=0;i<n-1 && flag==1;i++)
-    {
-        //here after each time of j loop
-        // we will re-initialize the flag to 0
+    
+    //Ahora comprobaremos el array y si el valor del flag es 1, entonces solo el bucle se ejecutara
+    for(i=0;i<n-1 && flag==1;i++){
+        
+        //Inicializamos el flag a 0
         flag=0;
-        for(j=0;j<n-i-1;j++)
-        {
-            //checking if previous value is
-            //grater than next one or not
-            if(arr[j]>arr[j+1])
-            {
-                //temp will temporarly store
-                //the value of arr[j]
-                //then we will swap the values
+        for(j=0;j<n-i-1;j++){
+            
+            //Comprobar si el valor es mayor
+            if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-                //Here if there is a swap then
-                // we will make it 1
+                //Si hay un swap se cambia a 1
                 flag=1;
             }
         }
     }
-    cout<<"After Bubble sort the array is:\n";
+    cout<<"Después de ejecutar el algoritmo 'burbuja' el array queda como: \n";
     for(i=0;i<n;i++)
         cout<<arr[i]<<" ";
     return 0;
