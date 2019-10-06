@@ -42,58 +42,58 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort
+CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/Bubblesort.dir/depend.make
+include CMakeFiles/BubbleSort.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/Bubblesort.dir/progress.make
+include CMakeFiles/BubbleSort.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/Bubblesort.dir/flags.make
+include CMakeFiles/BubbleSort.dir/flags.make
 
-CMakeFiles/Bubblesort.dir/main.cpp.obj: CMakeFiles/Bubblesort.dir/flags.make
-CMakeFiles/Bubblesort.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Bubblesort.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Bubblesort.dir\main.cpp.obj -c C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\main.cpp
+CMakeFiles/BubbleSort.dir/main.cpp.obj: CMakeFiles/BubbleSort.dir/flags.make
+CMakeFiles/BubbleSort.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BubbleSort.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\BubbleSort.dir\main.cpp.obj -c C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\main.cpp
 
-CMakeFiles/Bubblesort.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bubblesort.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\main.cpp > CMakeFiles\Bubblesort.dir\main.cpp.i
+CMakeFiles/BubbleSort.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BubbleSort.dir/main.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\main.cpp > CMakeFiles\BubbleSort.dir\main.cpp.i
 
-CMakeFiles/Bubblesort.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bubblesort.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\main.cpp -o CMakeFiles\Bubblesort.dir\main.cpp.s
+CMakeFiles/BubbleSort.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BubbleSort.dir/main.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\main.cpp -o CMakeFiles\BubbleSort.dir\main.cpp.s
 
-# Object files for target Bubblesort
-Bubblesort_OBJECTS = \
-"CMakeFiles/Bubblesort.dir/main.cpp.obj"
+# Object files for target BubbleSort
+BubbleSort_OBJECTS = \
+"CMakeFiles/BubbleSort.dir/main.cpp.obj"
 
-# External object files for target Bubblesort
-Bubblesort_EXTERNAL_OBJECTS =
+# External object files for target BubbleSort
+BubbleSort_EXTERNAL_OBJECTS =
 
-Bubblesort.exe: CMakeFiles/Bubblesort.dir/main.cpp.obj
-Bubblesort.exe: CMakeFiles/Bubblesort.dir/build.make
-Bubblesort.exe: CMakeFiles/Bubblesort.dir/linklibs.rsp
-Bubblesort.exe: CMakeFiles/Bubblesort.dir/objects1.rsp
-Bubblesort.exe: CMakeFiles/Bubblesort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Bubblesort.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Bubblesort.dir\link.txt --verbose=$(VERBOSE)
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/main.cpp.obj
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/build.make
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/linklibs.rsp
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/objects1.rsp
+BubbleSort.exe: CMakeFiles/BubbleSort.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BubbleSort.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BubbleSort.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Bubblesort.dir/build: Bubblesort.exe
+CMakeFiles/BubbleSort.dir/build: BubbleSort.exe
 
-.PHONY : CMakeFiles/Bubblesort.dir/build
+.PHONY : CMakeFiles/BubbleSort.dir/build
 
-CMakeFiles/Bubblesort.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\Bubblesort.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/Bubblesort.dir/clean
+CMakeFiles/BubbleSort.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\BubbleSort.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/BubbleSort.dir/clean
 
-CMakeFiles/Bubblesort.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles\Bubblesort.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/Bubblesort.dir/depend
+CMakeFiles/BubbleSort.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles\BubbleSort.dir\DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/BubbleSort.dir/depend
 

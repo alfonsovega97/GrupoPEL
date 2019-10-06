@@ -43,21 +43,21 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort
+CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Bubblesort.dir/all
+all: CMakeFiles/BubbleSort.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Bubblesort.dir/clean
+clean: CMakeFiles/BubbleSort.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Bubblesort.dir
+# Target rules for target CMakeFiles/BubbleSort.dir
 
 # All Build rule for target.
-CMakeFiles/Bubblesort.dir/all:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/depend
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Bubblesort"
-.PHONY : CMakeFiles/Bubblesort.dir/all
+CMakeFiles/BubbleSort.dir/all:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/depend
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target BubbleSort"
+.PHONY : CMakeFiles/BubbleSort.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Bubblesort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Bubblesort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Bubblesort.dir/rule
+CMakeFiles/BubbleSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/BubbleSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/BubbleSort.dir/rule
 
 # Convenience name for target.
-Bubblesort: CMakeFiles/Bubblesort.dir/rule
+BubbleSort: CMakeFiles/BubbleSort.dir/rule
 
-.PHONY : Bubblesort
+.PHONY : BubbleSort
 
 # clean rule for target.
-CMakeFiles/Bubblesort.dir/clean:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/clean
-.PHONY : CMakeFiles/Bubblesort.dir/clean
+CMakeFiles/BubbleSort.dir/clean:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/clean
+.PHONY : CMakeFiles/BubbleSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

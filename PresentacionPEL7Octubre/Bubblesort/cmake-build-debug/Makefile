@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort
+CMAKE_SOURCE_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\Bubblesort\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PC\Documents\GitHub\GrupoPEL\PresentacionPEL7Octubre\BubbleSort\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Bubblesort
+# Target rules for targets named BubbleSort
 
 # Build rule for target.
-Bubblesort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Bubblesort
-.PHONY : Bubblesort
+BubbleSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 BubbleSort
+.PHONY : BubbleSort
 
 # fast build rule for target.
-Bubblesort/fast:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/build
-.PHONY : Bubblesort/fast
+BubbleSort/fast:
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/build
+.PHONY : BubbleSort/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Bubblesort.dir\build.make CMakeFiles/Bubblesort.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\BubbleSort.dir\build.make CMakeFiles/BubbleSort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,7 +155,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Bubblesort
+	@echo ... BubbleSort
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

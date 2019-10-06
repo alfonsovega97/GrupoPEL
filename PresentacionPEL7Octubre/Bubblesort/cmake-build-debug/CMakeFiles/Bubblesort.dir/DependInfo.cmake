@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/PC/Documents/GitHub/GrupoPEL/PresentacionPEL7Octubre/Bubblesort/main.cpp" "C:/Users/PC/Documents/GitHub/GrupoPEL/PresentacionPEL7Octubre/Bubblesort/cmake-build-debug/CMakeFiles/Bubblesort.dir/main.cpp.obj"
+  "C:/Users/PC/Documents/GitHub/GrupoPEL/PresentacionPEL7Octubre/BubbleSort/main.cpp" "C:/Users/PC/Documents/GitHub/GrupoPEL/PresentacionPEL7Octubre/BubbleSort/cmake-build-debug/CMakeFiles/BubbleSort.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
