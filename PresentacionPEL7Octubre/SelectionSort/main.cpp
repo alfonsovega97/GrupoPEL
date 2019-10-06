@@ -1,38 +1,41 @@
-// Selection sort in C++
-#include <iostream>
+#include<iostream>
 using namespace std;
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+//Intercambiamos el contenido de las variables a y b
+void swapping(int &a, int &b) {
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
 }
-void printArray(int array[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
+void display(int *array, int size) {
+    for(int i = 0; i<size; i++)
         cout << array[i] << " ";
-    }
     cout << endl;
 }
-void selectionSort(int array[], int size)
-{
-    for (int step = 0; step < size - 1; step++)
-    {
-        int min_idx = step;
-        for (int i = step + 1; i < size; i++)
-        {
-            if (array[i] < array[min_idx])
-                min_idx = i;
-        }
-        swap(&array[min_idx], &array[step]);
+void selectionSort(int *array, int size) {
+    int i, j, imin;
+    for(i = 0; i<size-1; i++) {
+        imin = i;   //Cogemos el indice del menor valor
+        for(j = i+1; j<size; j++)
+            if(array[j] < array[imin])
+                imin = j;
+        //Lo colocamos en la correcta posicion
+        swap(array[i], array[imin]);
     }
 }
-int main()
-{
-    int data[] = {20, 12, 10, 15, 2};
-    int size = sizeof(data) / sizeof(data[0]);
-    selectionSort(data, size);
-    cout << "Sorted array in Acsending Order:\n";
-    printArray(data, size);
+int main() {
+    int n;
+    cout << "Introduce el numero de elementos del array: ";
+    cin >> n;
+    //Creamos las dimensiones del array
+    int arr[n];
+    cout << "Introduce los elementos del array:\n";
+    for(int i = 0; i<n; i++) {
+        cin >> arr[i];
+    }
+    cout << "Array antes de ordenarlo: ";
+    display(arr, n);
+    selectionSort(arr, n);
+    cout << "Array despues de ordenarlo: ";
+    display(arr, n);
 }
