@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/PC/Documents/GitHub/GrupoPEL/PresentacionPEL7Octubre/BubbleSort/main.cpp
+bits/stdc++.h
+-
+
